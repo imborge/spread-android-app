@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+		<ImageView
+		    android:id="@+id/momentImage"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="top|center_horizontal"
+		    android:contentDescription="Image"
+		    android:src="@drawable/loading_moments"
+		    />
+		
+		<TextView
+		    android:id="@+id/moment_text"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Moment text goes here..."
+		    android:layout_gravity="bottom|center_horizontal"
+		    android:background="#AA000000"
+		    android:textColor="#ffffffff"
+		    android:layout_marginBottom="20dp"
+		    android:padding="12dp"
+            android:visibility="gone"
+		    />
+
+        <Button
+            android:id="@+id/moments_nope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nope"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/moments_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/moments_shares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shares: 1231"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+</LinearLayout>

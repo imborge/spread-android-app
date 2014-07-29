@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="withText|always"/>
+
+</menu>
+<!-- From: file:/C:/Users/borgizzle/AndroidstudioProjects/Spread/spread/src/main/res/menu/create_moment.xml -->

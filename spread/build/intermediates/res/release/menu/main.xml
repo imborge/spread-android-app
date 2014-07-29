@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="no.boraj.spread.activity.MainActivity" >
+
+    <item
+        android:id="@+id/action_add_friend"
+        android:title="@string/action_add_friend"
+        app:showAsAction="withText|always"/>
+    <item
+        android:id="@+id/action_create_moment"
+        android:title="@string/action_create_moment"
+        app:showAsAction="withText|always"/>
+
+</menu>
+<!-- From: file:/C:/Users/borgizzle/AndroidstudioProjects/Spread/spread/src/main/res/menu/main.xml -->

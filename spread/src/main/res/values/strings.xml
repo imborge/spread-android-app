@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spread</string>
+    <string name="title_section1">Moments</string>
+    <string name="title_section2">Create a moment</string>
+    <string name="title_section3">Gallery</string>
+    <string name="title_section4">Friends</string>
+    <string name="title_section5">Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">1446693708915507</string>
+    <string name="action_add_friend">+F</string>
+    <string name="action_create_moment">+M</string>
+    <string name="action_share">Share</string>
+    <string name="button_nope">Nope</string>
+    <string name="button_spread">Spread</string>
+    <string name="textview_username">Signed in as</string>
+    <string name="choose_username">Choose username:</string>
+    <string name="title_activity_loader">LoaderActivity</string>
+    <string name="loading">Loading Spread. Please wait...</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

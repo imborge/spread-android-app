@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CreateMomentFragment">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@+id/create_moment_photo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:id="@+id/create_moment_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click  here to add text"
+                android:layout_gravity="bottom|center"
+                android:background="#AA000000"
+                android:textColor="#ffffffff"
+                android:layout_marginBottom="20dp"
+                android:padding="12dp" />
+        </FrameLayout>
+</FrameLayout>

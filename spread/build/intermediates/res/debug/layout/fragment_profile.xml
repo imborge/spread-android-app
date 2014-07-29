@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_username"
+            />
+		<TextView 
+		    android:id="@+id/tvUsername"
+		    android:text="Username"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="3dp"
+		    />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profile_sign_out"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign out"/>
+</LinearLayout>
+<!-- From: file:/C:/Users/borgizzle/AndroidstudioProjects/Spread/spread/src/main/res/layout/fragment_profile.xml -->
